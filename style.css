@@ -1,0 +1,226 @@
+/*
+Theme Name:     Newsportal Magazine
+Theme URI:      https://themeegg.com/themes/eggnews/
+Author:         ThemeEgg
+Author URI:     https://themeegg.com/
+Description:    Newsportal Magazine is a  responsive newsportal style Free WordPress theme. This theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites.
+Version:        1.0.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:    eggnews
+Tags:           news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
+Template:       eggnews
+*/
+
+/* Tab Widgets CSS */
+
+/*--------------------------------------------------------------
+Tabbed Widget
+--------------------------------------------------------------*/
+
+.tab-widget ul.widget-tabs {
+    margin-bottom: 10px;
+}
+
+.tab-widget .widget-tabs:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tab-widget .single-article {
+    border: 1px solid #e3e3e3;
+    margin-bottom: 10px;
+}
+
+.tab-widget .entry-title {
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.tab-widget .entry-title a {
+    line-height: 1.6em;
+}
+
+.tab-widget .tabbed-images {
+    margin-bottom: 10px;
+}
+
+.tabbed-comment-widget:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tabbed-comment-widget .comment-wraper,
+.tabbed-comment-widget .author-thumbnail {
+    float: left;
+}
+
+.tabbed-comment-widget .author-thumbnail {
+    padding: 0 10px 10px 0;
+    width: 60px;
+}
+
+.tabbed-comment-widget .comment-wraper {
+    width: calc(100% - 60px);
+}
+
+.tab-widget ul.widget-tabs li a {
+    padding: 5px 7px;
+}
+
+.tab-widget .tabbed-comment-widget {
+    border: 1px solid rgb(227, 227, 227);
+    margin-bottom: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.tab-widget .tabbed-comment-widget p {
+    margin-bottom: 10px;
+}
+
+.tab-widget ul.widget-tabs, .eggnews_random_news ul.widget-tabs {
+    margin: 0;
+    padding: 0;
+}
+
+.tab-widget ul.widget-tabs li, .eggnews_random_news ul.widget-tabs li {
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tab-widget ul.widget-tabs li a, .eggnews_random_news ul.widget-tabs li a {
+    display: block;
+    padding: 5px;
+    background: #73bf73;
+    color: #fff !important;
+}
+
+.tab-widget ul.widget-tabs li a:hover, .eggnews_random_news ul.widget-tabs li a:hover {
+    color: #fff !important;
+}
+
+.tab-widget ul.widget-tabs li a .fa, .eggnews_random_news ul.widget-tabs li a .fa {
+    margin-right: 10px;
+}
+
+.tab-widget ul.widget-tabs li.active::after, .eggnews_random_news ul.widget-tabs li.active::after {
+    border: 0px solid transparent;
+    border-bottom-color: #fff;
+    display: block;
+    content: "";
+    width: 0px;
+    border-width: 0 7px 7px 7px;
+    margin: -7px auto 0 auto;
+}
+
+.tab-widget ul.widget-tabs li.active a, .eggnews_random_news ul.widget-tabs li.active a {
+    background: #408c40;
+}
+
+.tab-widget ul.widget-tabs li:hover::after, .eggnews_random_news ul.widget-tabs li:hover::after {
+    border: 0px solid transparent;
+    border-bottom-color: #fff;
+    display: block;
+    content: "";
+    width: 0px;
+    border-width: 0 7px 7px 7px;
+    margin: -7px auto 0 auto;
+}
+
+.tab-widget .below-entry-meta span, .tab-widget .below-entry-meta a, .eggnews_random_news .below-entry-meta span, .eggnews_random_news .below-entry-meta a {
+    color: #878787;
+    font-style: normal;
+    font-size: 13px;
+
+}
+
+.tab-widget .below-entry-meta span:hover, .tab-widget .below-entry-meta a:hover, .eggnews_random_news .below-entry-meta span:hover, .eggnews_random_news .below-entry-meta a:hover {
+    color: #408c40;
+}
+
+.tab-widget .entry-title a, .eggnews_random_news .entry-title a {
+    color: #333;
+}
+
+.tab-widget .single-article, .eggnews_random_news .single-article {
+    border: 1px solid #f9f9f9;
+    padding: 10px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+.tab-widget .tabbed-widget-comment li, .eggnews_random_news .tabbed-widget-comment li {
+    list-style: none;
+}
+
+.tab-widget figure, .eggnews_random_news figure {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.tab-widget figure img, .eggnews_random_news figure img {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.tab-widget figure img:hover, .eggnews_random_news figure img:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.tab-widget .single-article {
+    border: 1px solid #e3e3e3;
+    margin-bottom: 10px;
+}
+
+.eggnews_tab .single-article {
+    position: relative;
+}
+
+.tab-widget .single-article {
+
+    padding: 10px;
+    margin-top: 2.5px;
+
+}
+
+.eggnews_tab .single-article .tabbed-images {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.tab-widget .tabbed-images {
+    margin-bottom: 10px;
+}
+
+.tab-widget figure {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.tab-widget figure img {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    height: 102px;
+    width: 136px;
+}
+
+.tab-widget figure img:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.eggnews_tab .single-article .article-content {
+    min-height: 102px;
+    margin-left: 146px;
+}

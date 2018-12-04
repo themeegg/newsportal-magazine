@@ -1,0 +1,69 @@
+# Copyright (C) 2018 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
+"POT-Creation-Date: 2018-12-04 18:31:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: inc/widget-newsportal-magazine-tab.php:30
+msgid "Displays the latest posts, popular posts and the recent comments in tab."
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:32
+msgid "Tab Widget"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:45
+msgid "Number of posts to display."
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:51
+msgid "Show popular post by view count."
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:84
+msgid "<i class=\"fa fa-star\"></i>Popular"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:87
+msgid "<i class=\"fa fa-history\"></i>Recent"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:90
+msgid "<i class=\"fa fa-comment\"></i>Comment"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:152
+#: inc/widget-newsportal-magazine-tab.php:218
+msgid ""
+"<span class=\"posted-on\"><a href=\"%1$s\" title=\"%2$s\" "
+"rel=\"bookmark\">%3$s</a></span>"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:164
+msgid "No Comments"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:164
+msgid "1 Comment"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:164
+msgid "% Comments"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:253
+msgid "says:"
+msgstr ""
+
+#: inc/widget-newsportal-magazine-tab.php:259
+msgid "No comments"
+msgstr ""
