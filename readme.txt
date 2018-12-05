@@ -8,7 +8,7 @@ License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
 == Description ==
 
-Newsportal Magazine is a  responsive newsportal style Free WordPress theme.
+Newsportal Magazine is a  responsive newsportal style Free WordPress theme. This theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. You can check demo from https://demo.themeegg.com/?name=Newsportal%20Magazine .
 
 == Installation ==
 	
