@@ -27,9 +27,9 @@ if (!class_exists('Newsportal_Magazine_Tab')):
         {
             $widget_ops = array(
                 'classname' => 'eggnews_tab',
-                'description' => __('Displays the latest posts, popular posts and the recent comments in tab.', 'newsportal-magazine')
+                'description' => __('Displays the latest posts, popular posts and the recent comments in tab.', 'eggnews')
             );
-            parent::__construct('eggnews_tab', __('Tab Widget', 'newsportal-magazine'), $widget_ops);
+            parent::__construct('eggnews_tab', __('Tab Widget', 'eggnews'), $widget_ops);
         }
 
         /**
@@ -42,13 +42,13 @@ if (!class_exists('Newsportal_Magazine_Tab')):
             $fields = array(
                 'banner_title' => array(
                     'eggnews_widgets_name' => 'number_of_posts_to_display',
-                    'eggnews_widgets_title' => __('Number of posts to display.', 'newsportal-magazine'),
+                    'eggnews_widgets_title' => __('Number of posts to display.', 'eggnews'),
                     'eggnews_widgets_field_type' => 'number',
                     'eggnews_widgets_default' => 5,
                 ),
                 'banner_rel' => array(
                     'eggnews_widgets_name' => 'show_post_by_view_count',
-                    'eggnews_widgets_title' => __('Show popular post by view count.', 'newsportal-magazine'),
+                    'eggnews_widgets_title' => __('Show popular post by view count.', 'eggnews'),
                     'eggnews_widgets_field_type' => 'checkbox'
                 )
             );
@@ -81,13 +81,13 @@ if (!class_exists('Newsportal_Magazine_Tab')):
             <div class="tab-widget">
                 <ul class="widget-tabs">
                     <li class="tabs popular-tabs"><a
-                                href="#popular"><?php _e('<i class="fa fa-star"></i>Popular', 'newsportal-magazine'); ?></a>
+                                href="#popular"><?php _e('<i class="fa fa-star"></i>Popular', 'eggnews'); ?></a>
                     </li>
                     <li class="tabs recent-tabs"><a
-                                href="#recent"><?php _e('<i class="fa fa-history"></i>Recent', 'newsportal-magazine'); ?></a>
+                                href="#recent"><?php _e('<i class="fa fa-history"></i>Recent', 'eggnews'); ?></a>
                     </li>
                     <li class="tabs comment-tabs"><a
-                                href="#comment"><?php _e('<i class="fa fa-comment"></i>Comment', 'newsportal-magazine'); ?></a>
+                                href="#comment"><?php _e('<i class="fa fa-comment"></i>Comment', 'eggnews'); ?></a>
                     </li>
                 </ul>
 
@@ -118,7 +118,7 @@ if (!class_exists('Newsportal_Magazine_Tab')):
 
                     $get_featured_posts = new WP_Query($args);
                     ?>
-                    <?php $featured = 'eggnews-pro-tab-thumbnail'; ?>
+                    <?php $featured = 'newsportal-magazine-tab-thumbnail'; ?>
                     <?php
                     $i = 1;
                     while ($get_featured_posts->have_posts()):$get_featured_posts->the_post();
@@ -149,7 +149,7 @@ if (!class_exists('Newsportal_Magazine_Tab')):
                                     $time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
                                     $time_string = sprintf($time_string, esc_attr(get_the_date('c')), esc_html(get_the_date())
                                     );
-                                    printf(__('<span class="posted-on"><a href="%1$s" title="%2$s" rel="bookmark">%3$s</a></span>', 'newsportal-magazine'), esc_url(get_permalink()), esc_attr(get_the_time()), $time_string
+                                    printf(__('<span class="posted-on"><a href="%1$s" title="%2$s" rel="bookmark">%3$s</a></span>', 'eggnews'), esc_url(get_permalink()), esc_attr(get_the_time()), $time_string
                                     );
                                     ?>
                                     &nbsp;<span class="byline">
@@ -161,7 +161,7 @@ if (!class_exists('Newsportal_Magazine_Tab')):
                                         </span>
                                     </span>&nbsp;
                                     <span class="comments"><i
-                                                class="fa fa-comment"></i> <?php comments_popup_link(__('No Comments', 'newsportal-magazine'), __('1 Comment', 'newsportal-magazine'), __('% Comments', 'newsportal-magazine')); ?></span>
+                                                class="fa fa-comment"></i> <?php comments_popup_link(__('No Comments', 'eggnews'), __('1 Comment', 'eggnews'), __('% Comments', 'eggnews')); ?></span>
                                 </div>
                             </div>
 
@@ -215,7 +215,7 @@ if (!class_exists('Newsportal_Magazine_Tab')):
                                     $time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
                                     $time_string = sprintf($time_string, esc_attr(get_the_date('c')), esc_html(get_the_date())
                                     );
-                                    printf(__('<span class="posted-on"><a href="%1$s" title="%2$s" rel="bookmark">%3$s</a></span>', 'newsportal-magazine'), esc_url(get_permalink()), esc_attr(get_the_time()), $time_string
+                                    printf(__('<span class="posted-on"><a href="%1$s" title="%2$s" rel="bookmark">%3$s</a></span>', 'eggnews'), esc_url(get_permalink()), esc_attr(get_the_time()), $time_string
                                     );
                                     ?>
                                     <span class="byline"><span class="author vcard"></i><a
@@ -250,13 +250,13 @@ if (!class_exists('Newsportal_Magazine_Tab')):
                         $commented .= '<div class="comment-wraper">';
                         $commented .= '<a class="author-nicename" href="' . get_permalink($comment->comment_post_ID) . '#comment-' . $comment->comment_ID . '">';
                         $commented .= get_comment_author($comment->comment_ID);
-                        $commented .= '</a>' . ' ' . __('says:', 'newsportal-magazine');
+                        $commented .= '</a>' . ' ' . __('says:', 'eggnews');
                         $commented .= '<p class="commented">' . strip_tags(substr(apply_filters('get_comment_text', $comment->comment_content), 0, '50')) . '...</p>';
                         $commented .= '</div>';
                         $commented .= '</li>';
                     endforeach;
                     else :
-                        $commented .= __('No comments', 'newsportal-magazine');
+                        $commented .= __('No comments', 'eggnews');
                     endif;
                     echo $commented;
                     ?>

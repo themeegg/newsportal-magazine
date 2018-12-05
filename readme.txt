@@ -32,33 +32,20 @@ GNU General Public License for more details.
 
 Newsportal Magazine bundles the following third-party resources:
 
-	Font Awesome by Dave Gandy
-    Licenses: SIL OFL 1.1, MIT, CC BY 3.0
-    Source: https://github.com/FortAwesome/Font-Awesome
+   JQuery Easy Tabs by Steve Schwartz
+   Licenses: MIT
 
-	bxSlider, Copyright 2014, Steven Wanderski
-    Licenses: WTFPL and MIT
-    Source: https://github.com/stevenwanderski/bxslider-4
+   Screenshot Images
+   Licenses: CCO Public Domain
 
-	Sticky js, Copyright 2014-2016, Anthony Garand
-    License: GPL
-    Source: https://github.com/garand/sticky
-    
-    OwlCarousel2, Copyright 2013-2017, David Deutsch
-        License: MIT
-        Source: https://github.com/OwlCarousel2/OwlCarousel2
-			
-   	Screenshot Images 
-    Licenses: CCO Public Domain
-    https://pixabay.com/en/people-woman-rally-protest-unite-2575608/
-    https://pixabay.com/en/fashion-woman-beauty-leisure-model-1636868/
-    https://pixabay.com/en/beautiful-business-woman-outdoors-2910264/
-    https://pixabay.com/en/young-girl-rose-man-lady-girl-531252/
-    https://pixabay.com/en/stock-iphone-business-mobile-phone-624712/
-    https://pixabay.com/en/spyware-cyber-cyber-crime-security-2319403/
-    https://pixabay.com/en/drone-multicopter-dji-inspire-1080844/
-    https://pixabay.com/en/milipol-claude-gueant-politicians-836171/
-    https://pixabay.com/en/basketball-sport-play-1602392/
+   https://pixabay.com/en/fashion-woman-portrait-model-girl-3080644/
+   https://pixabay.com/en/sexy-erotic-woman-female-girl-2742629/
+   https://pixabay.com/en/model-fashion-attractive-female-600225/
+   https://pixabay.com/en/people-woman-girl-clothing-eye-2563491/
+   https://pixabay.com/en/bleachers-soccer-field-stadium-1867992/
+   https://pixabay.com/en/cheerleaders-girls-hot-sexy-sporty-560455/
+   https://pixabay.com/en/football-ball-sport-leather-fire-1406106/
+   https://pixabay.com/en/football-playing-field-corner-1419954/
    
     Other custom js files are our own creation and is licensed under the same license as this theme.
     Other custom images are our own creation and is licensed under the same license as this theme.

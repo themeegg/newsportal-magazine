@@ -14,7 +14,7 @@ function newsportal_magazine_scripts()
 {
 
     wp_register_script('newsportal-magazine-easytabs', get_stylesheet_directory_uri() . '/assets/js/jquery.easytabs.js', array(), esc_attr(NEWSPORTAL_MAGAZINE_VERSION), true);
-    wp_enqueue_script('newsportal-magazine', get_stylesheet_directory_uri() . '/assets/js/main.js', array('newsportal-magazine-easytabs'), esc_attr(NEWSPORTAL_MAGAZINE_VERSION), true);
+    wp_enqueue_script('eggnews', get_stylesheet_directory_uri() . '/assets/js/main.js', array('newsportal-magazine-easytabs'), esc_attr(NEWSPORTAL_MAGAZINE_VERSION), true);
 
 }
 
